@@ -7,4 +7,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(info = @Info(title = "Expense Manager API", version = "v1"))
 public class OpenApiConfig {
+
 }
