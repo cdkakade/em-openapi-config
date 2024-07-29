@@ -14,7 +14,7 @@
 	<name>openapi-config</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<openapi.version>2.3.0</openapi.version>
+		<openapi.version>2.6.0</openapi.version>
 	</properties>
 	<dependencies>
 

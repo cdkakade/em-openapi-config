@@ -45,6 +45,7 @@ public class OpenApiConfig {
 
 	@Bean
 	public OpenAPI openAPI() {
+		log.info("Creating OpenAPI Bean");
 		return new OpenAPI().schemaRequirement(SECURITY_SCHEME_NAME, getSecurityScheme())
 			.security(getSecurityRequirement())
 			.info(info());
