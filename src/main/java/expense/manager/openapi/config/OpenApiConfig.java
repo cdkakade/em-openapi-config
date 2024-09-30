@@ -65,7 +65,7 @@ public class OpenApiConfig {
 
 	private SecurityScheme getSecurityScheme() {
 		SecurityScheme securityScheme = new SecurityScheme();
-		if ("local".equalsIgnoreCase(activeProfile)) {
+		if (false) {
 			securityScheme.type(SecurityScheme.Type.APIKEY);
 			securityScheme.in(SecurityScheme.In.HEADER);
 			securityScheme.setName(COGNITO_USERNAME_HEADER);
